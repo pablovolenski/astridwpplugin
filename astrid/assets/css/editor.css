@@ -1,0 +1,11 @@
+.astrid-editor-preview { padding: 1rem; border: 1px dashed #949494; }
+.astrid-editor-preview .astrid-editor-context { font-size: 12px; margin-block: 0 1rem; color: #50575e; }
+.astrid-editor-preview .astrid-option-field { margin-block-end: 1rem; }
+.astrid-editor-preview label { display: block; margin-block-end: .4rem; }
+.astrid-editor-preview .astrid-editor-details { margin-block-start: 1rem; font-size: 13px; }
+.astrid-editor-preview .astrid-editor-details summary { cursor: pointer; }
+.astrid-editor-preview .astrid-editor-form { margin-block-start: 1rem; padding: 1rem; border: 1px solid #ddd; }
+.astrid-editor-preview .astrid-field { margin-block-end: 1rem; }
+.astrid-editor-preview .astrid-field input,
+.astrid-editor-preview .astrid-field textarea,
+.astrid-editor-preview select { box-sizing: border-box; width: 100%; }

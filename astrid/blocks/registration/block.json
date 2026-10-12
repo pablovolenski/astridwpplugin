@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "astrid/registration",
+  "version": "2.0.0",
+  "title": "Astrid Registration",
+  "category": "widgets",
+  "icon": "forms",
+  "description": "Register for the activity identified by the enclosing Group heading.",
+  "keywords": ["activity", "register", "form"],
+  "textdomain": "astrid",
+  "attributes": {
+    "buttonLabel": { "type": "string", "default": "" },
+    "displayMode": { "type": "string", "default": "" }
+  },
+  "usesContext": ["postId", "postType"],
+  "supports": { "html": false, "anchor": true, "spacing": { "margin": true, "padding": true } },
+  "editorScript": "astrid-editor",
+  "editorStyle": "astrid-editor",
+  "style": "astrid",
+  "viewScript": "astrid-view"
+}

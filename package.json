@@ -1,0 +1,14 @@
+{
+  "name": "astrid-development",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "translations": "node scripts/build-translations.mjs",
+    "test": "node scripts/test-wordpress.mjs",
+    "test:browser": "node scripts/test-browser.mjs"
+  },
+  "devDependencies": {
+    "@wp-playground/cli": "^3.1.58",
+    "playwright": "^1.64.0"
+  }
+}

@@ -1,0 +1,236 @@
+msgid "Register"
+msgstr "Anmelden"
+
+msgid "Register for {activity}"
+msgstr "Anmeldung für {activity}"
+
+msgid "Leave your details to register for {activity}. We will get back to you soon."
+msgstr "Ich freue mich, dass du dich für „{activity}“ anmeldest. Hinterlasse deine Kontaktdaten, wir melden uns bald bei dir."
+
+msgid "Full name"
+msgstr "Vor- und Nachname"
+
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+msgid "Message (optional)"
+msgstr "Nachricht (optional)"
+
+msgid "Choose an option"
+msgstr "Option auswählen"
+
+msgid "Please select an option"
+msgstr "Bitte wähle eine Option"
+
+msgid "I agree to the processing of my data and accept the {terms} and {privacy}."
+msgstr "Ich stimme der elektronischen Verarbeitung und Speicherung meiner Daten zu und akzeptiere die {terms} und die {privacy}."
+
+msgid "terms and conditions"
+msgstr "AGBs"
+
+msgid "privacy policy"
+msgstr "Datenschutzvereinbarung"
+
+msgid "Send registration"
+msgstr "Anmeldung senden"
+
+msgid "Thank you! Your registration for {activity} has been sent. We will contact you soon."
+msgstr "Danke! Deine Anmeldung für {activity} wurde gesendet. Wir melden uns bald bei dir."
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Leave this field empty"
+msgstr "Dieses Feld leer lassen"
+
+msgid "Register another person"
+msgstr "Eine weitere Person anmelden"
+
+msgid "Please enable JavaScript to use this registration form."
+msgstr "Bitte aktiviere JavaScript, um dieses Anmeldeformular zu verwenden."
+
+msgid "Activity"
+msgstr "Aktivität"
+
+msgid "Astrid: add at least one activity option in the block editor."
+msgstr "Astrid: Bitte füge mindestens eine Aktivitätsoption im Block-Editor hinzu."
+
+msgid "Astrid Registration"
+msgstr "Astrid Anmeldung"
+
+msgid "Astrid Multiple options"
+msgstr "Astrid Mehrere Optionen"
+
+msgid "Detected activity"
+msgstr "Erkannte Aktivität"
+
+msgid "Page or post title"
+msgstr "Seiten- oder Beitragstitel"
+
+msgid "Uses the first Heading in the nearest enclosing Group; otherwise uses the page or post title."
+msgstr "Verwendet die erste Überschrift in der nächstgelegenen umschließenden Gruppe, sonst den Seiten- oder Beitragstitel."
+
+msgid "Form display"
+msgstr "Formularanzeige"
+
+msgid "Use dashboard default"
+msgstr "Dashboard-Vorgabe verwenden"
+
+msgid "Popup"
+msgstr "Popup"
+
+msgid "Reveal below the button"
+msgstr "Unter dem Button einblenden"
+
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+msgid "Activity options"
+msgstr "Aktivitätsoptionen"
+
+msgid "One option per line. Include duration, price or any other details in the option text."
+msgstr "Eine Option pro Zeile. Dauer, Preis oder andere Angaben können direkt im Optionstext stehen."
+
+msgid "Add at least one option in the block settings before publishing."
+msgstr "Füge vor dem Veröffentlichen mindestens eine Option in den Block-Einstellungen hinzu."
+
+msgid "Button text (optional)"
+msgstr "Button-Text (optional)"
+
+msgid "Form preview — registrations are sent only on the published page."
+msgstr "Formularvorschau — Anmeldungen werden nur auf der veröffentlichten Seite gesendet."
+
+msgid "Sending…"
+msgstr "Wird gesendet…"
+
+msgid "Something went wrong. Please try again."
+msgstr "Da ist leider etwas schiefgegangen. Bitte versuch es erneut."
+
+msgid "The connection was interrupted. Please try again."
+msgstr "Die Verbindung wurde unterbrochen. Bitte versuch es erneut."
+
+msgid "Please complete the required fields and accept the consent checkbox."
+msgstr "Bitte fülle alle Pflichtfelder aus und bestätige die Zustimmung."
+
+msgid "Please choose an option before registering."
+msgstr "Bitte wähle vor der Anmeldung eine Option."
+
+msgid "This form is no longer valid. Reload the page and try again."
+msgstr "Dieses Formular ist nicht mehr gültig. Bitte lade die Seite neu und versuch es erneut."
+
+msgid "This activity is not available for registration."
+msgstr "Diese Aktivität ist nicht zur Anmeldung verfügbar."
+
+msgid "Too many attempts. Please wait a minute and try again."
+msgstr "Zu viele Versuche. Bitte warte eine Minute und versuch es erneut."
+
+msgid "Registration: %s"
+msgstr "Anmeldung: %s"
+
+msgid "The email could not be sent. Please try again later."
+msgstr "Die E-Mail konnte nicht gesendet werden. Bitte versuch es später erneut."
+
+msgid "Enter a valid recipient email address. The previous address was kept."
+msgstr "Bitte gib eine gültige Empfängeradresse ein. Die bisherige Adresse wurde beibehalten."
+
+msgid "Place a Heading and an Astrid block inside a native Group. Astrid identifies the activity automatically from that heading."
+msgstr "Platziere eine Überschrift und einen Astrid-Block in einer nativen Gruppe. Astrid erkennt die Aktivität automatisch anhand dieser Überschrift."
+
+msgid "Delivery and display"
+msgstr "Versand und Anzeige"
+
+msgid "Recipient email"
+msgstr "Empfänger-E-Mail"
+
+msgid "Terms page URL"
+msgstr "URL der AGB-Seite"
+
+msgid "Privacy page URL"
+msgstr "URL der Datenschutzseite"
+
+msgid "Default form display"
+msgstr "Standard-Formularanzeige"
+
+msgid "Form text"
+msgstr "Formulartexte"
+
+msgid "Leave a text field blank to follow the WordPress site language. Use {activity} for the detected activity and {option} for the selected option. Consent text uses {terms} and {privacy} for links."
+msgstr "Lasse ein Textfeld leer, um der WordPress-Websitesprache zu folgen. Verwende {activity} für die erkannte Aktivität und {option} für die gewählte Option. Der Zustimmungstext verwendet {terms} und {privacy} für Links."
+
+msgid "Registration button"
+msgstr "Anmeldebutton"
+
+msgid "Form heading"
+msgstr "Formularüberschrift"
+
+msgid "Introduction"
+msgstr "Einleitung"
+
+msgid "Name field"
+msgstr "Namensfeld"
+
+msgid "Phone field"
+msgstr "Telefonfeld"
+
+msgid "Email field"
+msgstr "E-Mail-Feld"
+
+msgid "Message field"
+msgstr "Nachrichtenfeld"
+
+msgid "Options label"
+msgstr "Beschriftung der Optionen"
+
+msgid "Options placeholder"
+msgstr "Platzhalter der Optionen"
+
+msgid "Consent wording"
+msgstr "Zustimmungstext"
+
+msgid "Terms link text"
+msgstr "Text des AGB-Links"
+
+msgid "Privacy link text"
+msgstr "Text des Datenschutzlinks"
+
+msgid "Submit button"
+msgstr "Absenden-Button"
+
+msgid "Thank-you message"
+msgstr "Bestätigungsnachricht"
+
+msgid "Button appearance"
+msgstr "Button-Design"
+
+msgid "Theme styling uses the native WordPress Button classes. Custom styling applies to both registration and submit buttons."
+msgstr "Das Theme-Design verwendet die nativen WordPress-Button-Klassen. Eigene Stile gelten für Anmelde- und Absenden-Buttons."
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Inherit theme"
+msgstr "Vom Theme übernehmen"
+
+msgid "Custom"
+msgstr "Eigener Stil"
+
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+msgid "Text color"
+msgstr "Textfarbe"
+
+msgid "Corner radius (px)"
+msgstr "Eckenradius (px)"
+
+msgid "Vertical padding (px)"
+msgstr "Vertikaler Innenabstand (px)"
+
+msgid "Horizontal padding (px)"
+msgstr "Horizontaler Innenabstand (px)"
+
+msgid "Font size (px)"
+msgstr "Schriftgröße (px)"

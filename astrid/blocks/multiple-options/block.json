@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "astrid/multiple-options",
+  "version": "2.0.0",
+  "title": "Astrid Multiple options",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Require an activity option before registering. Include the selection in the email.",
+  "keywords": ["activity", "options", "dropdown"],
+  "textdomain": "astrid",
+  "attributes": {
+    "buttonLabel": { "type": "string", "default": "" },
+    "displayMode": { "type": "string", "default": "" },
+    "options": { "type": "array", "default": [], "items": { "type": "string" } }
+  },
+  "usesContext": ["postId", "postType"],
+  "supports": { "html": false, "anchor": true, "spacing": { "margin": true, "padding": true } },
+  "editorScript": "astrid-editor",
+  "editorStyle": "astrid-editor",
+  "style": "astrid",
+  "viewScript": "astrid-view"
+}

@@ -1,0 +1,41 @@
+.astrid-registration { position: relative; }
+.astrid-registration [hidden] { display: none !important; }
+.astrid-registration .astrid-option-field { margin-block-end: 1rem; }
+.astrid-registration .astrid-option-status:empty,
+.astrid-registration .astrid-status:empty { display: none; }
+.astrid-registration .astrid-option-field label,
+.astrid-registration .astrid-field label { display: block; margin-block-end: .4em; font-weight: 600; }
+.astrid-registration .astrid-option-field select { width: 100%; max-width: 36rem; font: inherit; }
+.astrid-registration .astrid-panel { box-sizing: border-box; padding: clamp(1.25rem, 4vw, 2.5rem); border: 1px solid #d5d5d5; border-radius: .5rem; margin-block-start: 1rem; color: inherit; }
+.astrid-registration .astrid-dialog { position: fixed; width: min(36rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); margin: auto; overflow-y: auto; background: var(--wp--preset--color--base, #fff); color: var(--wp--preset--color--contrast, #222); box-shadow: 0 1rem 4rem #0003; }
+.astrid-registration .astrid-dialog:not([open]) { display: none; }
+.astrid-dialog::backdrop { background: #0009; }
+.astrid-registration .astrid-dialog-fallback[open] { display: block; inset: 1rem; z-index: 100000; box-shadow: 0 0 0 100vmax #0009; }
+.astrid-registration .astrid-panel h2 { margin-block: 0 .75rem; padding-inline-end: 1.5rem; }
+.astrid-registration .astrid-intro { white-space: pre-line; margin-block-end: 1.5rem; }
+.astrid-registration .astrid-close { position: absolute; inset-block-start: .5rem; inset-inline-end: .6rem; border: 0; background: transparent; color: inherit; font: inherit; font-size: 1.8rem; line-height: 1; padding: .5rem; cursor: pointer; }
+.astrid-registration .astrid-field { margin-block-end: 1rem; }
+.astrid-registration .astrid-field input,
+.astrid-registration .astrid-field textarea { box-sizing: border-box; width: 100%; max-width: none; font: inherit; color: inherit; padding: .65em .75em; border: 1px solid #888; border-radius: .25rem; background: transparent; }
+.astrid-registration .astrid-field textarea { resize: vertical; }
+.astrid-registration .astrid-consent { display: flex; align-items: flex-start; gap: .65rem; margin-block: 1.25rem; }
+.astrid-registration .astrid-consent input { flex: 0 0 auto; margin-block-start: .35em; }
+.astrid-registration .astrid-consent label { font-size: .9em; }
+.astrid-registration .astrid-honeypot { display: none; }
+.astrid-registration .astrid-status,
+.astrid-registration .astrid-option-status { margin-block: .8rem; }
+.astrid-registration .is-error,
+.astrid-registration .astrid-option-status { color: #b32d2e; }
+.astrid-registration [aria-invalid="true"] { outline: 2px solid #b32d2e; outline-offset: 2px; }
+.astrid-registration input:focus-visible,
+.astrid-registration textarea:focus-visible,
+.astrid-registration select:focus-visible,
+.astrid-registration button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.astrid-registration .astrid-button { cursor: pointer; }
+.astrid-registration .astrid-button:disabled { opacity: .6; cursor: wait; }
+.astrid-registration[data-button-style="custom"] .astrid-button { background: var(--astrid-button-bg); color: var(--astrid-button-color); border: 0; border-radius: var(--astrid-button-radius); padding: var(--astrid-button-py) var(--astrid-button-px); font-size: var(--astrid-button-size); }
+.astrid-registration .astrid-success p { white-space: pre-line; }
+@media (prefers-reduced-motion: no-preference) {
+  .astrid-dialog[open] { animation: astrid-appear .15s ease-out; }
+  @keyframes astrid-appear { from { opacity: 0; transform: translateY(.4rem); } to { opacity: 1; transform: translateY(0); } }
+}
